@@ -816,3 +816,23 @@ text-align: center;
         order: 2;
     }
 }
+
+/* Showcase block*/
+
+.block-showcase{
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 95%);
+}
+
+.block-showcase .media__title{
+    color: white;
+}
+
+.showcase__img{
+    margin-bottom: 3rem;
+}
+
+@media screen and (min-width: 768px){
+    .block__heading{
+        font-size: 4rem;
+    }
+}
