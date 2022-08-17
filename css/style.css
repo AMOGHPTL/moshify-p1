@@ -787,6 +787,10 @@ text-align: center;
 
 /* Plans block */
 
+.feature__heading{
+    margin-top: 1rem;
+}
+
 .block-plans .grid{
     gap: 8rem 4rem;
 }
@@ -794,4 +798,21 @@ text-align: center;
 .block-plans .card{
     max-width: 500px;
     margin: 0 auto;
+}
+
+
+/* Feature block */
+.block-feature .block__header{
+    margin-bottom: 6rem;
+}
+
+.feature{
+    margin-bottom: 12rem;
+    gap: 2rem;
+}
+
+@media screen and (min-width: 768px){
+    .feature:nth-last-of-type(odd) .feature__content{
+        order: 2;
+    }
 }
