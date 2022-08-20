@@ -849,29 +849,29 @@ text-align: center;
 
 /* Footer */
 
-.footer{
+.block-footer{
     background:  #232323;
 }
 
-.footer .collapsible{
+.block-footer .collapsible{
     border-bottom: 1px solid #404040;
 }
 
-.footer .block__header{
+.block-footer .block__header{
     margin-bottom: 2rem;
     margin-top: 2rem;
 }
 
-.footer .block__heading{
+.block-footer .block__heading{
     font-size: 2.4rem;
     font-weight: 600;
 }
 
-.footer .list{
+.block-footer .list{
     margin-top: 0;
 }
 
-.footer .icon{
+.block-footer .icon{
  fill: #404040;   
 }
 
@@ -881,7 +881,7 @@ text-align: center;
     margin-top: 5rem;
 }
 
-.footer img{
+.block-footer img{
     width: 100%;
     max-width: 23rem;
 }
@@ -892,12 +892,12 @@ text-align: center;
     opacity: 0.3;
 }
 
-.footer a{
+.block-footer a{
     color: var(--color-body);
     transition: color 0.3s;
 }
 
-.footer a:hover{
+.block-footer a:hover{
     color: white;
 }
 
@@ -906,11 +906,11 @@ text-align: center;
         grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
         gap: 2rem;
     }
-    .footer .collapsible__chevron{
+    .block-footer .collapsible__chevron{
         display: none;
     }
 
-    .footer .collapsible__content{
+    .block-footer .collapsible__content{
         opacity: 1;
         max-height: 100%;
     }
@@ -924,7 +924,7 @@ text-align: center;
         font-size: 1.5rem;
     }
 
-    .footer .collapsible{
+    .block-footer .collapsible{
         border: 0;
     }
 
