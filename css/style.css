@@ -548,6 +548,8 @@ text-align: center;
 .callout{
     padding: 4rem;
     border-radius: 5px;
+    position: relative;
+    top: 50px;
 }
 
 .callout--primary{
@@ -903,6 +905,7 @@ text-align: center;
 
 @media screen and (min-width: 768px){
     .footer__sections{
+        margin:50px 0 30px;
         grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
         gap: 2rem;
     }
